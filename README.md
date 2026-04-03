@@ -1,70 +1,143 @@
-# Getting Started with Create React App
+# 💸 Finance Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🔗 **Live Demo:** https://financedashboardio.netlify.app/  
+🔗 **Repository:** https://github.com/ashwin5638/FinanceDashboard
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Overview
 
-### `npm start`
+Finance Dashboard helps users monitor their financial activity in a simple and visual way.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application enables users to:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 📈 View financial summary
+- 💰 Track income and expenses
+- 🧾 Manage transactions
+- 📊 Analyze spending patterns using charts
+- 📱 Access across all screen sizes
 
-### `npm test`
+This project focuses on creating a **clean dashboard experience with reusable React components and scalable state management**.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Dashboard Summary**
+  - Total balance
+  - Total income
+  - Total expenses
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Transaction Management**
+  - Add new transactions
+  - Categorize income / expense
+  - View transaction history
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Interactive Charts**
+  - Income vs Expense visualization
+  - Spending analytics
+  - Category-based insights
 
-### `npm run eject`
+- **Responsive UI**
+  - Mobile-first layout
+  - Tablet and desktop optimized
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Modern Component Architecture**
+  - Reusable components
+  - Context API state management
+  - Clean folder structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Frontend
+- React.js
+- JavaScript
+- CSS / Responsive Design
+- Context API
+- Recharts
 
 ### Deployment
+- Netlify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📂 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+FinanceDashboard/
+│
+├── public/
+├── src/
+│   ├── Components/
+│   ├── Context/
+│   ├── Pages/
+│   ├── Utils/
+│   ├── App.js
+│   └── index.js
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ashwin5638/FinanceDashboard.git
+```
+
+Navigate into the project:
+
+```bash
+cd FinanceDashboard
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the application:
+
+```bash
+npm start
+```
+
+---
+
+## 🌐 Deployment
+
+This project is deployed on **Netlify**
+
+Live URL:  
+https://financedashboardio.netlify.app/
+
+---
+
+## 🎯 Key Learnings
+
+This project strengthened my understanding of:
+
+- React component architecture
+- State management using Context API
+- Data visualization
+- Reusable UI patterns
+- Responsive dashboard design
+
+---
+Dashboard
+
+<img width="1895" height="865" alt="Screenshot 2026-04-04 012726" src="https://github.com/user-attachments/assets/772ce180-bac1-4f91-9770-7722c41d9adf" />
+<img width="1893" height="865" alt="Screenshot 2026-04-04 012709" src="https://github.com/user-attachments/assets/1cd1fac7-7a92-4028-939a-57fe46c3650e" />
+
+
+
+## ⭐ Support
+
+If you like this project, give it a **star ⭐** on GitHub.
