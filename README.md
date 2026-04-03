@@ -1,4 +1,4 @@
-# 💸 Finance Dashboard
+#  Finance Dashboard
 
 🔗 **Live Demo:** https://financedashboardio.netlify.app/  
 🔗 **Repository:** https://github.com/ashwin5638/FinanceDashboard
@@ -136,8 +136,3 @@ Dashboard
 <img width="1895" height="865" alt="Screenshot 2026-04-04 012726" src="https://github.com/user-attachments/assets/772ce180-bac1-4f91-9770-7722c41d9adf" />
 <img width="1893" height="865" alt="Screenshot 2026-04-04 012709" src="https://github.com/user-attachments/assets/1cd1fac7-7a92-4028-939a-57fe46c3650e" />
 
-
-
-## ⭐ Support
-
-If you like this project, give it a **star ⭐** on GitHub.
