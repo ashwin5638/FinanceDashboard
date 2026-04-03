@@ -40,24 +40,22 @@ const Transaction = () => {
         dispatch({ type: 'DELETE_TRANSACTION', payload: id });
     };
 
+    
     return (
         <div className="transaction-container">
             <div className="card recent-trans">
-                <h1 style={{ marginBottom: '1.5rem' }}>Recent Transactions</h1>
+                <h1 className="transaction-section-title">Recent Transactions</h1>
                 <ul className="transaction-list">
                     {state.transactions.map((t) => (
                         <li key={t.id} className="transaction-item">
                             <div>
-                                <strong style={{ color: 'var(--text-primary)' }}>{t.title}</strong>
-                                <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
+                                <strong className="transaction-title">{t.title}</strong>
+                                <div className="transaction-meta">
                                     {t.category} • {t.date}
                                 </div>
                             </div>
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                <span style={{ 
-                                    color: t.type === 'Income' ? 'var(--accent-success)' : 'var(--accent-danger)',
-                                    fontWeight: 'bold'
-                                }}>
+                            <div className="transaction-actions">
+                                <span className={`transaction-amount ${t.type === 'Income' ? 'income' : 'expense'}`}>
                                     {t.type === 'Income' ? '+' : '-'}${t.amount.toLocaleString()}
                                 </span>
                                 <button className="delete-btn" onClick={() => handleDelete(t.id)}>×</button>
@@ -68,7 +66,7 @@ const Transaction = () => {
             </div>
 
             <div className="card add-container">
-                <h3 style={{ marginBottom: '1.5rem' }}>Add Transaction</h3>
+                <h3 className="transaction-section-title">Add Transaction</h3>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
                         <label>Title</label>
@@ -93,7 +91,7 @@ const Transaction = () => {
                         <label>Date</label>
                         <input name="date" type="date" value={formData.date} onChange={handleChange} />
                     </div>
-                    <button type="submit" style={{ width: '100%', marginTop: '1rem' }}>Add Transaction</button>
+                    <button type="submit" className="add-transaction-btn">Add Transaction</button>
                 </form>
             </div>
         </div>

@@ -137,6 +137,42 @@ button:hover {
 
 .transaction-item:last-child { border-bottom: none; }
 
+.transaction-section-title {
+  margin-bottom: 1.5rem;
+}
+
+.transaction-title {
+  color: var(--text-primary);
+}
+
+.transaction-meta {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.transaction-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.transaction-amount {
+  font-weight: 700;
+}
+
+.transaction-amount.income {
+  color: var(--accent-success);
+}
+
+.transaction-amount.expense {
+  color: var(--accent-danger);
+}
+
+.add-transaction-btn {
+  width: 100%;
+  margin-top: 1rem;
+}
+
 .delete-btn {
   background: transparent;
   color: var(--accent-danger);
